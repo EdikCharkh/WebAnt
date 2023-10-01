@@ -1,0 +1,163 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+
+    background-color: black;
+}
+
+.main {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+.starter {
+    animation-name: anim_I;
+    animation-duration: 1s;
+    transition: 1s;
+    background-color: black;
+    border: 3px solid #00FF48;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    width: 40rem;
+    padding: 30px;
+}
+
+
+form {
+    visibility: visible;
+}
+
+.text_I_div {
+    margin-top: 100px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.text_I {
+    text-align: center;
+    color: #00FF48;
+    font-family: Comic Sans MS;
+
+}
+
+
+
+.darker_I {
+
+    text-align: center;
+    color: #059f30;
+    font-family: sans-serif;
+}
+
+.darker_II {
+    text-align: center;
+    color:  #059f30;
+    font-family: sans-serif;
+    font-size: 20px
+
+}
+
+.main_logo_div_I {
+
+    display: flex;
+    justify-content: center;
+}
+
+.logo_I_div {
+    width: 100px;
+}
+.logo_I{
+
+    width: 100%;
+}
+
+
+.text_II_div {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text_II {
+    margin-top: 10px;
+    text-align: center;
+    color: #00FF48;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.button_I_div {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.button_I {
+    transition: all 0.5s linear ;
+    font-weight: bold;
+    cursor: pointer;
+    color: #00FF48;
+    background-color: black;
+    border-radius: 10px;
+    border: 3px solid #00FF48;
+    padding: 10px 30px;
+    font-family: sans-serif;
+}
+
+
+/* starter_II */
+
+
+.starter_II {
+    display: none;
+}
+
+
+.input_field_I {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.input_I {
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 3px solid  #00FF48;
+    background-color:  black;
+    color:   #00FF48;
+}
+
+
+@keyframes anim_I {
+
+    from {margin-right: 200px; margin-top: -200px; opacity: 0%;}
+
+    to {margin-right: 0; margin-top: 0; opacity: 100%;}
+}
+
+.button_I:hover {
+    background-color: #00FF48;
+    color: black;
+    border: 3px solid #00FF48;
+}
+
+
